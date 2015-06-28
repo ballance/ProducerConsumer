@@ -1,3 +1,3 @@
 # Producer Consumer
 
-An exploration of .NET 4.x's ConcurrentCollection data structures
+A Producer / Consumer Pattern implemented with BlockingCollection <ConcurrentQueue>
