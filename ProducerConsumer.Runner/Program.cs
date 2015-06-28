@@ -25,6 +25,7 @@ namespace ProducerConsumer.Runner
 
         private static void Main(string[] args)
         {
+            Console.Title = "Producer / Consumer Pattern implemented with BlockingCollection <ConcurrentQueue> by Chris Ballance";
             Console.WriteLine(" ==================================================================================");
             Console.WriteLine(" Producer / Consumer Pattern implemented with BlockingCollection <ConcurrentQueue> ");
             Console.WriteLine(" ----------------------------------------------------------------------------------");
