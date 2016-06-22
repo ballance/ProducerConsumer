@@ -33,18 +33,5 @@ namespace ProducerConsumer
                 }
             }
         }
-
-
-        //public void ConsumeOne()
-        //{
-        //    var found = false;
-        //    while (!found)
-        //    {
-        //        TransferInitializer transferItem;
-        //        found = TransferQueue.Instance.TryTake(out transferItem);
-        //        Console.WriteLine("{2} <------- Consumed {0} - {1}.", transferItem.Id, transferItem.Name,
-        //            TransferQueue.Count);
-        //    }
-        //}
     }
 }
